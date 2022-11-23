@@ -22,13 +22,26 @@ const: No modificable, Scope global
 // snake_case - Pyton JavaScript
 //              variables y funciones
 
+// parrafoinicial.onclick = function () {
+//     accion();
+// }
+
+// function accion () {
+//     parrafoinicial.style.color="red";
+// }
+
 parrafoinicial.onclick = function () {
-    accion();
+    cambiaColorAleatorio();
 }
 
-function accion () {
-    parrafoinicial.style.color="red";
-    alert("Holi");
-}
+function cambiaColorAleatorio (){
 
+    const colores = [
+        "red",
+        "blue",
+        "black",
+        "cyan"
+    ]  
+    parrafoinicial.style.color = colores[]
+};
 
